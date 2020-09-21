@@ -1,0 +1,15 @@
+<html>
+  <head></head>
+  <body>
+    <div><input id="testName" /></div>
+    <div><textarea id="testDetails"></textarea></div>
+    <div><button id="submitBtn">Submit</button></div>
+
+    <script type="text/javascript">
+    console.log(document.getElementById('submitBtn'));
+      document.getElementById('submitBtn').addEventListener('click', () => {
+        window.alert('Your data has been saved');
+      });
+    </script>
+  </body>
+</html>
